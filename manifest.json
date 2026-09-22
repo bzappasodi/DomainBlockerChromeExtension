@@ -4,16 +4,13 @@
   "author": "CSC",
   "description": "Domain blocking Chrome Extension.",
   "permissions": [
-    "tabs",
     "webRequest",
     "<all_urls>",
-    "webRequestBlocking",
-    "storage"
+    "webRequestBlocking"
   ],
   "web_accessible_resources": [
     "url.json",
-    "bootstrap.min.css",
-    "url.json"
+    "bootstrap.min.css"
   ],
   "background": {
     "scripts": [
