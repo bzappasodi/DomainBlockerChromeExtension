@@ -1,6 +1,3 @@
-/*
-Fetch a JSON file from AWS
- */
 
 let blockedUrls = [],
     response = () => {
@@ -9,7 +6,7 @@ let blockedUrls = [],
         };
     };
 
-const FETCH_URLS = "https://domain-list-resriction.s3.amazonaws.com/url.json";
+const FETCH_URLS = "url.json";
 
 
 (() => {

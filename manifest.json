@@ -2,7 +2,7 @@
   "name": "CSC Domain Block",
   "version": "1.0",
   "author": "CSC",
-  "description": "Domain blocking Chrome Extension written exclusively by CSC.",
+  "description": "Domain blocking Chrome Extension.",
   "permissions": [
     "tabs",
     "webRequest",
@@ -13,7 +13,7 @@
   "web_accessible_resources": [
     "url.json",
     "bootstrap.min.css",
-    "https://domn-list-resriction.s3.amazonaws.com/url.json"
+    "url.json"
   ],
   "background": {
     "scripts": [
@@ -29,7 +29,7 @@
       "48": "images/csc-48.png",
       "128": "images/csc-128.png"
     },
-    "default_title": "Domain blocking Chrome Extension written exclusively by CSC."
+    "default_title": "Domain blocking Chrome Extension."
   },
   "icons": {
     "16": "images/csc-16.png",

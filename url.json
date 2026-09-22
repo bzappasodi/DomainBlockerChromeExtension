@@ -1,0 +1,17 @@
+{
+  "BLOCKEDDOMAINS": [
+    {
+      "url": "*://www.msnbc.com/*"
+    },
+    {
+      "url": "*://code.org/*"
+    },
+    {
+      "url": "*://www.cnn.com/*"
+    },
+    {
+      "url": "*://192.168.2.2/*"
+    }
+  ]
+}
+
